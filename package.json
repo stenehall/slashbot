@@ -1,0 +1,15 @@
+{
+  "name": "slashbot",
+  "description": "A simple bot for slashat, based on igelkott",
+  "version": "0.1.0",
+  "dependencies": {
+    "igelkott": "*",
+    "igelkott-topic": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node slashbot",
+    "mon": "nodemon slashbot.js"
+  }
+}

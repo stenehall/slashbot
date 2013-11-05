@@ -1,0 +1,16 @@
+{
+  "server": {
+    "host": "chat1.ustream.tv",
+    "port": 6667,
+    "nick": "slashbot",
+    "channels": [
+      "#slashat"
+    ]
+  },
+  "trigger": ".",
+  "plugins": ["001", "433", "privmsg", "log", "connect", "ping", "help", "plugin", "topic"],
+  "database": {
+    "app_id": "",
+    "js_key": ""
+  }
+}
