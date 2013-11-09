@@ -3,8 +3,8 @@
   "description": "A simple bot for slashat, based on igelkott",
   "version": "0.1.0",
   "dependencies": {
-    "igelkott": "*",
-    "igelkott-topic": "*"
+    "igelkott": "git://github.com/stenehall/igelkott.git#master",
+    "igelkott-topic": "git://github.com/stenehall/igelkott-topic.git#master"
   },
   "devDependencies": {
   },
