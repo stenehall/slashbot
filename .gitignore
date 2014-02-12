@@ -1,2 +1,5 @@
 db
 node_modules
+log/
+npm-debug.log
+.swp
