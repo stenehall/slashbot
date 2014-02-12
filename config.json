@@ -6,11 +6,18 @@
     "channels": [
       "#slashat"
     ]
-  },
-  "trigger": ".",
-  "plugins": ["log", "001", "433", "privmsg", "connect", "ping", "help", "plugin", "topic"],
-  "database": {
-    "app_id": "",
-    "js_key": ""
-  }
-}
+    },
+    "trigger": ".",
+    "core":["privmsg", "001", "433", "connect", "ping"],
+    "plugins": {
+      "log": null,
+      "help": null,
+      "plugin": null,
+      "hue": {"interval": 60000},
+      "slashatlog": null
+      },
+      "database": {
+        "app_id": "",
+        "js_key": ""
+      }
+    }
