@@ -9,12 +9,12 @@ Slashbot.prototype = Object.create(Igelkott.prototype, {constructor: {value: Sla
 
 Slashbot.prototype.load = function load(pluginName) {
   try {
-    Igelkott.prototype.load.call(this, pluginName);
+    Igelkott.prototype.load.call(this, pluginName, config);
   }
   catch (err) {
     this.log(err);
     try {
-      this.plugin.load(pluginName, require('igelkott-'+pluginName).Plugin);
+      this.plugin.load(pluginName, config.plugins[pluginName], require('igelkott-'+pluginName).Plugin);
     } catch (err)
     {
       this.log('No such plugin: '+pluginName);
