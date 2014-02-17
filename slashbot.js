@@ -23,10 +23,6 @@ Slashbot.prototype.load = function load(pluginName) {
 };
 
 var config = require('./config.json');
-config.database = {
-  "app_id": process.env.APP_ID,
-  "js_key": process.env.JS_KEY
-};
 
 var slashbot = new Slashbot(config);
 slashbot.connect();
