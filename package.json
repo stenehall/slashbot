@@ -4,7 +4,10 @@
   "version": "0.1.0",
   "dependencies": {
     "igelkott": "git://github.com/stenehall/igelkott.git#master",
+    "igelkott-log": "git://github.com/stenehall/igelkott-log.git#master",
     "igelkott-topic": "git://github.com/stenehall/igelkott-topic.git#master",
+    "igelkott-plugin": "git://github.com/stenehall/igelkott-plugin.git#master",
+    "igelkott-help": "git://github.com/stenehall/igelkott-help.git#master",
     "igelkott-hue": "git://github.com/stenehall/igelkott-hue.git#master",
     "igelkott-slashatlog": "git://github.com/stenehall/igelkott-slashatlog.git#master"
   },

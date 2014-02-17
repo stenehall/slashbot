@@ -14,7 +14,8 @@
     "help": null,
     "plugin": null,
     "hue": {"interval": 60000},
-    "slashatlog": null
+    "slashatlog",
+    "topic",
   },
   "database": {
     "app_id": "",
