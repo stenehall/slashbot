@@ -4,6 +4,12 @@
   "version": "0.1.0",
   "dependencies": {
     "igelkott": "git://github.com/stenehall/igelkott.git#master",
+    "igelkott-privmsg": "git://github.com/stenehall/igelkott-privmsg.git#master",
+    "igelkott-ping": "git://github.com/stenehall/igelkott-ping.git#master",
+    "igelkott-identify": "git://github.com/stenehall/igelkott-identify.git#master",
+    "igelkott-join": "git://github.com/stenehall/igelkott-join.git#master",
+
+
     "igelkott-log": "git://github.com/stenehall/igelkott-log.git#master",
     "igelkott-topic": "git://github.com/stenehall/igelkott-topic.git#master",
     "igelkott-plugin": "git://github.com/stenehall/igelkott-plugin.git#master",
